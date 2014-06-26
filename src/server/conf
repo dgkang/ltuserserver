@@ -1,0 +1,17 @@
+{
+	"listenhost":"0.0.0.0",
+	"listenport":8080,
+	"redis":
+	[
+		{
+			"name":"master",
+			"redishost":"127.0.0.1",
+			"redisport":6379
+		},
+		{
+			"name":"slave",
+			"redishost":"127.0.0.1",
+			"redisport":6379
+		}
+	]
+}
